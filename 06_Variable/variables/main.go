@@ -8,7 +8,10 @@ func main() {
 	var ratio float64
 	var off bool
 	var msg string
-	fmt.Println(speed)
+
+	_ = speed // blank identifier
+
+	// fmt.Println(speed)
 	fmt.Println(ratio)
 	fmt.Println(off)
 	fmt.Println(msg)
