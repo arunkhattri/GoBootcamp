@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+
+	s "github.com/inancgumus/prettyslice"
 )
 
 func main() {
@@ -35,6 +37,7 @@ func main() {
 		}
 		fmt.Printf("Day %d: %d\n", i+1, total)
 	}
+	s.Show("Spendings", spendings)
 
 }
 
